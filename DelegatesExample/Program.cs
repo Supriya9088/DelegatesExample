@@ -15,6 +15,11 @@ public delegate int Calculation(int numOne, int numTwo);
     {
         return (numOne * numTwo);
     }
+
+    static int Division(int numOne, int numTwo)
+    {
+        return (numOne / numTwo);
+    }
     static void Main(string[] args)
     {
         int valOne = 5;
@@ -25,6 +30,9 @@ public delegate int Calculation(int numOne, int numTwo);
         Console.WriteLine(valOne + "-" + valTwo + "=" + objCal(valOne, valTwo));
         Calculation objCal2 = new Calculation(Multiplication);
         Console.WriteLine(valOne + "*" + valTwo + "=" + objCal2(valOne, valTwo));
+
+        Calculation objCal3 = new Calculation(Division);
+        Console.WriteLine(valOne + "/" + valTwo + "=" + objCal3(valOne, valTwo));
     }
 }
 
