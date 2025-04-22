@@ -10,6 +10,11 @@ public delegate int Calculation(int numOne, int numTwo);
     {
         return (numOne - numTwo);
     }
+
+    static int Multiplication(int numOne, int numTwo)
+    {
+        return (numOne * numTwo);
+    }
     static void Main(string[] args)
     {
         int valOne = 5;
@@ -18,6 +23,8 @@ public delegate int Calculation(int numOne, int numTwo);
         Console.WriteLine(valOne + "+" + valTwo + "=" + objCalculation(valOne,valTwo));
         Calculation objCal=new Calculation(Substraction);
         Console.WriteLine(valOne + "-" + valTwo + "=" + objCal(valOne, valTwo));
+        Calculation objCal2 = new Calculation(Multiplication);
+        Console.WriteLine(valOne + "*" + valTwo + "=" + objCal2(valOne, valTwo));
     }
 }
 

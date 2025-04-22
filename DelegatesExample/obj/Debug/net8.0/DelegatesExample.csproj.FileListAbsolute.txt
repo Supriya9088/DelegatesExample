@@ -12,3 +12,4 @@ D:\Supriya .Net Class project\DelegatesExample\DelegatesExample\obj\Debug\net8.0
 D:\Supriya .Net Class project\DelegatesExample\DelegatesExample\obj\Debug\net8.0\DelegatesExample.pdb
 D:\Supriya .Net Class project\DelegatesExample\DelegatesExample\obj\Debug\net8.0\DelegatesExample.genruntimeconfig.cache
 D:\Supriya .Net Class project\DelegatesExample\DelegatesExample\obj\Debug\net8.0\ref\DelegatesExample.dll
+D:\Supriya .Net Class project\DelegatesExample\DelegatesExample\obj\Debug\net8.0\DelegatesExample.sourcelink.json
